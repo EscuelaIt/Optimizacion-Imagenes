@@ -1,0 +1,32 @@
+{
+  "name": "ImageOptimizer-gulp",
+  "version": "1.0.0",
+  "description": "Optimización de imágenes con imagemin con Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "images",
+    "optimization",
+    "image",
+    "performance",
+    "imagemin"
+  ],
+  "author": {
+    "name": "Joan León",
+    "mail": "joan.leon@gmail.com",
+    "twitter": "@nucliweb"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^5.0.3",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webp": "^5.0.0"
+  }
+}
