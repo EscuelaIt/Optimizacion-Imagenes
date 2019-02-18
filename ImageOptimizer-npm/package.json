@@ -1,0 +1,31 @@
+{
+  "name": "ImageOptimizer",
+  "version": "1.0.0",
+  "description": "Optimización de imágenes con imagemin y scriot de npm",
+  "main": "index.js",
+  "scripts": {
+    "images": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "images",
+    "optimization",
+    "image",
+    "performance",
+    "imagemin"
+  ],
+  "author": {
+    "name": "Joan León",
+    "mail": "joan.leon@gmail.com",
+    "twitter": "@nucliweb"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "imagemin": "^6.1.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webp": "^5.0.0"
+  }
+}
