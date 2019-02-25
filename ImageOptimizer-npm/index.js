@@ -1,13 +1,20 @@
 const imagemin = require('imagemin');
-const imageminJpegtran = require('imagemin-jpegtran');
+
+// Lossy Plugins
+const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageminPngquant = require('imagemin-pngquant');
+const imageminGiflossy = require('imagemin-giflossy');
 const imageminWebp = require('imagemin-webp');
 const imageminSvgo = require('imagemin-svgo');
+
+// Lossyless Plugin
+const imageminJpegtran = require('imagemin-jpegtran');
+const imageminOptipng = require('imagemin-optipng');
 const imageminGifsicle = require('imagemin-gifsicle');
 
 (async() => {
   const files = await imagemin(
-    ['images/**/*.{jpg,png,svg,gif}'],
+    ['./images/**/*.{jpg,png,svg,gif}'],
       'dist/images',
     {
       plugins:
