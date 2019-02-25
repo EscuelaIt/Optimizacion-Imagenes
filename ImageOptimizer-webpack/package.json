@@ -1,0 +1,27 @@
+{
+  "name": "ImageOptimizer-webpack",
+  "version": "1.0.0",
+  "description": "Optimización de imágenes con imagemin con webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "images",
+    "optimization",
+    "image",
+    "performance",
+    "imagemin"
+  ],
+  "author": {
+    "name": "Joan León",
+    "mail": "joan.leon@gmail.com",
+    "twitter": "@nucliweb"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

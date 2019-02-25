@@ -1,7 +1,7 @@
 {
   "name": "ImageOptimizer",
   "version": "1.0.0",
-  "description": "Optimización de imágenes con imagemin y scriot de npm",
+  "description": "Optimización de imágenes con imagemin y script de npm",
   "main": "index.js",
   "scripts": {
     "images": "node index.js",
